@@ -5,7 +5,7 @@
       <Modal v-if="MODAL_SHOW"/>
       <Loader v-if="LOADING"/>
       <Error v-if="ERROR"/>
-      <Snippets v-if="BOOKS !=[]"/>
+      <Snippets v-if="!NOT_FOUND"/>
       
   </div>
 
